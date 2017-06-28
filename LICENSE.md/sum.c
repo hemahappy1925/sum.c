@@ -1,15 +1,14 @@
 #include<stdio.h>
-void main()
+int main()
 {
-       int n,j,sum=0;
-       clrscr();
-       printf("Enter the Number : ");
-       scanf("%d",&n);
-       for(j=1;j<=n;j++)
-           {
-              printf("%d ",j);
-              sum=sum+j;
-           }
-              printf("\nSum of  %d is : %d ",n,sum);
-              getch();
+ int n,j,sum=0;
+printf("Enter the Number : ");
+scanf("%d",&n);
+for(j=1;j<=n;j++)
+{
+printf("%d ",j);
+sum=sum+j;
+}
+printf("\nSum of  %d is : %d ",n,sum);
+return 0;
 }
