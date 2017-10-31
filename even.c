@@ -1,3 +1,4 @@
+//to print even nos. till limit
 #include <stdio.h>
 int main()
 {
