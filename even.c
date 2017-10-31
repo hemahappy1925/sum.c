@@ -3,7 +3,7 @@ int main()
 {
     int i, n;
 
-    printf("Print odd numbers till: ");
+    printf("Print even numbers till: ");
     scanf("%d", &n);
  
     printf("All odd numbers from 1 to %d are: \n", n);
