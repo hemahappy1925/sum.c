@@ -11,7 +11,7 @@ int main()
     {
         if(i%2=0)
         {
-            printf("%d\n", i);
+            printf("%d\n", i);//to print the even numbers
         }
     }
      return 0;
